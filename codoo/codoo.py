@@ -27,7 +27,6 @@ def show_results():
 	f.write(request.form['solution'])
 	f.close()
 	result = check_answer(g.prob_code)
-	prit "Hello"
 	return result
 		
 if __name__ == '__main__':
